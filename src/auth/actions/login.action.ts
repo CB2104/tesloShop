@@ -10,7 +10,7 @@ export const loginAction = async (
       email: email,
       password: password,
     });
-    console.log(data);
+    // console.log(data);
     return data;
   } catch (error) {
     console.log(error);
