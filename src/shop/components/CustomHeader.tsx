@@ -116,7 +116,11 @@ export const CustomHeader = () => {
 
             {isAdmin() && (
               <Link to="/admin">
-                <Button variant="destructive" size="sm" className="ml-2">
+                <Button
+                  variant="destructive"
+                  size="sm"
+                  className="ml-2 hover:bg-red-700"
+                >
                   Admin
                 </Button>
               </Link>
