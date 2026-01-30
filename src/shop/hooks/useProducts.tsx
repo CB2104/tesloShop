@@ -45,7 +45,6 @@ export const useProducts = () => {
       break;
   }
 
-  console.log(price);
 
   return useQuery({
     queryKey: [
